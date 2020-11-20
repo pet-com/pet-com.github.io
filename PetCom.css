@@ -1,0 +1,65 @@
+body{
+    background-image: url("Imagens/Fundo.png");
+    background-size: 1260px 650px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+header{
+    background-color: rgba(255, 255, 255, 0.7);
+    border: 2px solid white;
+    height: 120px;
+    margin-bottom: 30px;
+}
+.navegacao{
+    display: grid;
+    padding-bottom: 20px;
+}
+ul.navegacao_lista{
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: repeat(6,170px);
+    grid-template-rows: 60px;
+}
+a.tags:link{
+    text-decoration: none;
+    color: red;
+    font-family: sans-serif;
+}
+a.tags:visited{
+    text-decoration: none;
+}
+a.tags:hover{
+    text-decoration: underline;
+    color: red;
+}
+a.tags:activer{
+    text-decoration: none;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: repeat(3,300px);
+    grid-gap: 2px;
+}
+.grid-item{
+    font-family: sans-serif;
+    background-color: rgba(255,255,255,0.7);
+    font-size: 20px;
+    max-width: 618px;
+    border: 2px solid sandybrown;
+    height: 280px;
+    padding: 5px;
+}
+.tags{
+    color:red;   
+}
+.texto{
+    
+}
+.img{
+    height: 280px;
+    width: 480px;
+}
+.titulo1{
+    color: blue;   
+}
