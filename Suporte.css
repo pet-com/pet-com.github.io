@@ -1,0 +1,39 @@
+body{
+    background-image: url("Imagens/Fundo.png");
+    background-size: 1260px 650px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+header{
+    background-color: rgba(255, 255, 255, 0.7);
+    border: 2px solid white;
+    height: 120px;
+}
+.navegacao{
+    display: grid;
+    padding-bottom: 20px;
+}
+ul.navegacao_lista{
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: repeat(6,170px);
+    grid-template-rows: 60px;
+}
+a.tags:link{
+    text-decoration: none;
+    color: red;
+    font-family: sans-serif;
+}
+a.tags:visited{
+    text-decoration: none;
+}
+a.tags:hover{
+    text-decoration: underline;
+    color: red;
+}
+a.tags:activer{
+    text-decoration: none;
+}
+.tags{
+    color:red;   
+}
