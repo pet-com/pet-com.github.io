@@ -25,7 +25,6 @@ ul.navegacao_lista{
 a.tags:link{
     text-decoration: none;
     color: red;
-    font-family: sans-serif;
 }
 a.tags:visited{
     text-decoration: none;
@@ -39,4 +38,31 @@ a.tags:activer{
 }
 .tags{
     color:red;   
+}
+.texto{
+    background-color: rgba(255,255,255,0.7);
+    border: 2px solid sandybrown;
+    margin-top: 25px;
+    font-size: 22px;
+    padding-right: 150px;
+    padding-left: 150px;
+    padding-top: 43px;
+    padding-bottom: 43px;
+}
+.grid{
+    display: grid;   
+    grid-template-columns: 50% 50%;
+    grid-gap: 10px;
+}
+.grid-item{
+    background-color: rgba(255,255,255,0.7);
+    border: 2px solid sandybrown;
+    height: 260px;
+    max-width: 605px;
+}
+.titulo{
+    color: blue;
+}
+.lista{
+   font-size: 18px;
 }

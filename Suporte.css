@@ -40,3 +40,36 @@ a.tags:activer{
 .tags{
     color:red;   
 }
+.grid1{
+    margin-top: 25px;
+    display: grid;
+    grid-template-columns: 30% 68%;
+    grid-gap: 20px;
+}
+.grid1-item{
+    background-color: rgba(255,255,255,0.7);  
+    border: 2px solid sandybrown;
+}
+.titulo{
+    color: blue;   
+}
+.titulo2{
+    color: darkmagenta;
+    padding-left: 35px;
+}
+ul.creditos{
+    list-style-type: none;   
+}
+.petcom{
+    background-color: rgba(255,255,255,0.7);  
+    border: 2px solid sandybrown;  
+    margin-top: 25px;
+}
+.img{
+    margin-left: 20px;
+    height:200px;
+    width:280px;
+}
+ul.lista{
+    list-style-type: none;   
+}

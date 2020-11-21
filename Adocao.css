@@ -40,3 +40,8 @@ a.tags:activer{
 .tags{
     color:red;   
 }
+.construcao{
+    background-color: rgba(255, 255, 255, 0.7);
+    border: 2px solid sandybrown;
+    font-size: 50px;
+}
